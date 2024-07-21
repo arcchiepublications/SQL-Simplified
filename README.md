@@ -37,10 +37,13 @@ To get started with the book and the materials in this repository:
 
 The `/code-examples` directory contains practical code samples that align with the content of the book. Feel free to explore and use these examples for your learning and experimentation.
 
-The prompt will look like:
-```
-Please provide the description of the book 'Prompt Engineering for Beginners: A Comprehensive Guide' by Kapila Arora 
-
+The code will look like:
+```sql
+-- Create DEPT table
+CREATE TABLE DEPT (
+    DEPTCODE NUMBER PRIMARY KEY,
+    DEPTNAME VARCHAR2(50) NOT NULL
+);
 ```
 
 ## About the Authors
@@ -57,7 +60,7 @@ We value your feedback and contributions to make this resource even better. If y
 
 ## License
 
-This repository and its contents are licensed under [MIT License]. Please review the [LICENSE](LICENSE) file for detailed terms and conditions.
+This repository and its contents are licensed under [Apache License 2.0]. Please review the [LICENSE](LICENSE) file for detailed terms and conditions.
 
 Happy reading and coding!
 
